@@ -1,2 +1,23 @@
-# Online-shopping-system6
-Online shopping website project 
+name: Artifact Demo
+
+on: push
+
+jobs:
+
+build:
+
+runs-on: ubuntu-latest
+
+steps:
+
+name: create file
+
+run:
+
+|
+
+mkdir temp
+
+echo "alpha" > temp/alpha.html
+
+name: Upload artifact
